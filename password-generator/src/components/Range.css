@@ -1,0 +1,10 @@
+.range__container{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.range__container input{
+    width: 90% ;
+    
+}

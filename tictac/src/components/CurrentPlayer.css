@@ -1,0 +1,18 @@
+.currentPlayer__container{
+    padding: 10px 20px ;
+    border : 1px solid white ;
+    background-color:  rgba(255,255,255,0.2) ;
+    border-radius:  10px ;
+    color:  white;
+    
+    font-size: 1.2rem;
+    display: flex ;
+    justify-content: center;
+    align-items: center; 
+    
+}
+span{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

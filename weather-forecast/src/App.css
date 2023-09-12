@@ -1,0 +1,48 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 50%,
+    rgb(194, 15, 125) 50%,
+    rgb(194, 15, 125) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 30px 30px;
+  gap: 80px;
+  border : 2px solid white ;
+  min-width: 50vw;
+  min-height: 40vh;
+
+}
+
+
+.title {
+  font-size: 1.5rem;
+  display: flex;
+  
+  align-items: center;
+}
+
+
+
+.title img{
+  width: 30px ;
+  margin-right: 30px;
+  cursor: pointer;
+}

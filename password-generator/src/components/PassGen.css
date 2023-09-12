@@ -1,0 +1,97 @@
+.passGen__container{
+    width : 40vw ;
+    background-color: white;
+    border-radius: 15px;
+    padding : 20px 50px ;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+}
+
+.title{
+    color : blue
+}
+
+.password{
+    /* width : 100% ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px ;
+    font-size: 1.3rem;
+    padding: 20px 10px ;
+    
+
+}
+
+.password img {
+    width: 20px ;
+    cursor: pointer;
+}
+
+.utility{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px ;
+}
+
+.strength{
+    border: 1px solid black;
+    border-radius: 100% ;
+    width:  25px ;
+    height: 25px ;
+}
+
+.copy {
+    cursor: pointer;
+}
+
+
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    padding: 20px 10px;
+}
+
+
+.generate {
+    border : none ;
+    outline: none;
+    padding : 20px 10px  ;
+    background-color :blue ; 
+    color : white ;
+    cursor: pointer ;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.generate:hover{
+    transform: scale(1.05);
+    background-color: rgba(0,0,0,0.9);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+
+.weak{
+    background-color: red;
+}
+
+.moderate{
+    background-color: yellow;
+}
+
+.strong{
+    background-color: green ;
+}

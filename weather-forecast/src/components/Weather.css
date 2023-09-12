@@ -1,0 +1,41 @@
+.title{
+    font-size : 1.7rem  
+}
+
+.weather__body{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px ;
+    font-size: 1.3rem;
+
+}
+
+
+.weather__region{
+    font-size: 1.5rem;
+}
+
+.weather__icon{
+    width: 120px;
+}
+
+.weather__temp{
+    font-size: 2rem;
+    margin-bottom: -9px;
+}
+
+.weather__bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2rem;
+    padding : 20px ;
+    gap : 40px ;
+    
+}
+
+.weather__bottom   div{
+    border : 1px solid white ;
+    padding : 10px 20px  ;
+}

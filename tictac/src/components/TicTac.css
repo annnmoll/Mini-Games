@@ -1,0 +1,75 @@
+.tictac__container{
+    width : 32vw ;
+    height: 50vh;
+    border: 1px solid white ;
+    background-color: rgba(255 ,255, 255 , 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+   
+}
+
+.tictac{
+    display: grid;
+    width: 80%;
+    height : 80% ;
+    grid-template-columns: 33% 33% 33%  ;
+    
+    
+
+
+}
+
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white ;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+
+
+.Box1{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.Box2{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.Box3{
+    border-bottom: 1px solid white;
+}
+.Box4{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.Box5{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+.Box6{
+    border-bottom: 1px solid white;
+}
+.Box7{
+    border-right: 1px solid white;
+}
+.Box8{
+    border-right: 1px solid white;
+}
+.winner {  
+    background-color: green;
+}
+
+@media only screen and (max-width : 768px) {
+    .tictac__container{
+        width: 90vw;
+        
+    }
+}
